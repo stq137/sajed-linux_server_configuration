@@ -470,7 +470,7 @@ postgres | Superuser, Create role, Create DB, Replication, Bypass RLS | {}
 
 Base.metadata.bind = engine.
 
-Ensure to do this in the `database_setup.py` and the `__init__.py`.
+Ensure to do this in the `database_setup.py` and the `__init__.py` and the `inital_data_population.py`.
 
   
 
